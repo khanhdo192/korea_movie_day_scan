@@ -1,0 +1,35 @@
+form.form-user .form-title {
+  margin-bottom: 10px;
+  display: block;
+}
+
+form.form-user .form-title .title {
+  font-weight: 700;
+}
+
+form.form-user .form-page {
+  display: block;
+  padding-bottom: 6px;
+}
+
+form.form-user .form-group {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+form.form-user .custom-radiobox {
+  display: inline-block;
+}
+
+form.form-user .custom-radiobox + .custom-radiobox {
+  margin-left: 20px;
+}
+
+form.form-user .custom-checkbox {
+  display: inline-block;
+}
+
+form.form-user .custom-checkbox + .custom-checkbox {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=user.css.map */

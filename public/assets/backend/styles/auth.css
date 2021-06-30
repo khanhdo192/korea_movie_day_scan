@@ -1,0 +1,150 @@
+body {
+  background-color: #1c3470;
+}
+
+.main-screen {
+  padding-bottom: 20px;
+}
+
+.main-left .main-wheel {
+  position: fixed;
+  top: 105px;
+  z-index: -1;
+  width: 519px;
+  height: auto;
+}
+
+.main-left .main-logo-header {
+  padding-top: 30px;
+  padding-left: 66px;
+  padding-right: 66px;
+}
+
+.main-left .main-logo-header .main-logo1 {
+  width: 281px;
+  height: auto;
+}
+
+.main-left .main-logo-header .main-logo2 {
+  width: 154px;
+  height: auto;
+  margin-left: 64px;
+}
+
+.main-left .main-logo-center {
+  padding-top: 56px;
+  padding-left: 66px;
+  padding-right: 66px;
+}
+
+.main-left .main-logo-center .main-logo3 {
+  width: 526px;
+  height: auto;
+}
+
+.main-right {
+  text-align: center;
+}
+
+.main-right .main-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-right .main-user-login {
+  margin-top: 111px;
+  width: 478px;
+  height: auto;
+  min-height: 555px;
+  border: 2px dashed #fff;
+  border-radius: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  background-color: #1c3470;
+}
+
+.main-right .login-title {
+  margin-top: 31px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.main-right .main-login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-right .form {
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 50px;
+}
+
+.main-right .form .label-user {
+  color: #83A6FF;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.main-right .form .label-pass {
+  margin-top: 24px;
+  color: #83A6FF;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.main-right .form .ip-name {
+  background-color: #1c3470;
+  width: 100%;
+  height: 63px;
+  border: 2px solid #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.main-right .form .ip-pass {
+  background-color: #1c3470;
+  width: 100%;
+  height: 63px;
+  border: 2px solid #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.main-right .btn-main-login {
+  margin-top: 124px;
+  background-color: #fff;
+  color: #1c3470;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 35px;
+  width: 249px;
+  height: 48px;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.25);
+}
+/*# sourceMappingURL=auth.css.map */

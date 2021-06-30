@@ -1,0 +1,67 @@
+body {
+  background-color: #1c3470;
+  background-image: url("../images/bgkmd.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.home-header {
+  padding-top: 80px;
+}
+
+.home-header .logo-kto {
+  width: 450px;
+  height: auto;
+}
+
+.home-kmd {
+  padding-top: 50px;
+}
+
+.home-kmd .logo-kmd {
+  width: 100%;
+  height: auto;
+}
+
+.home-kmd .logo-title {
+  margin-top: 10px;
+  width: 640px;
+  height: auto;
+}
+
+.home-film {
+  padding-top: 50px;
+}
+
+.home-film .poster {
+  width: 90%;
+  height: auto;
+  border: 6px solid rgba(44, 149, 241, 0.3);
+}
+
+.home-info {
+  padding-top: 100px;
+  padding-bottom: 300px;
+}
+
+.home-info .dn-city {
+  color: #fff;
+  font-size: 51px;
+  font-weight: 800;
+}
+
+.home-info .ct-city {
+  margin-top: 50px;
+  color: #fff;
+  font-size: 51px;
+  font-weight: 800;
+}
+
+.home-info .cgv {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=home.css.map */

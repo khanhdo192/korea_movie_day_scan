@@ -1,0 +1,67 @@
+.widget-profile{
+	background-color: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+	.profile-cover{
+		background: url(../images/cover.jpg);
+		background-size: cover;
+		background-position: top, center;
+		height: 300px;
+		width: 100%;
+		display: block;
+		clip-path: ellipse(100% 80% at 50% 22%);
+	}
+	.profile-info{
+		background-color: #fff;
+		width: 100%;
+		padding: 10px 30px 20px 30px;
+	}
+	.info-avatar{
+		display: block;
+		.item{
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 8px;
+		}
+		.name{
+			font-size: 18px;
+			font-weight: 700;
+		}
+		.level{
+			color: #8b91a9;
+		}
+		.item-avatar{
+			position: relative;
+		}
+		.avatar{
+			height: 110px;
+			width: 110px;
+			background-color: #f0f0f0;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		img{
+			height: inherit;
+			width: inherit;
+			object-fit: cover;
+		}
+		.btn-change{
+			font-size: 0;
+			padding: 0;
+			background-color: #1761fd;
+			border-radius: 50%;
+			width: 32px;
+			height: 32px;
+			position: absolute;
+			bottom: 5px;
+			right: 2px;
+			border: 2px solid #fff;
+			box-shadow: 0px 0px 20px 0px rgba(248,248,252,0.05);
+			i{
+				color: #fff;
+				line-height: 28px;
+			}
+		}
+	}
+	
+}
